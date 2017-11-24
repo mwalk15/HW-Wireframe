@@ -1,0 +1,126 @@
+body {
+	background: gray;
+	position: fixed;
+	width: 100%;
+}
+
+#header {
+	background: #eee;
+	position: relative;
+	padding: 40px;
+	margin-bottom: 10px;
+	width: 80%;
+	height: 30px;
+	left: 50px;
+	text-align: center;
+	font-family: verdana;
+	color: gray;
+	font-weight: bold;
+}
+
+#nav {
+	background: #eee;
+	position: relative;
+	padding: 40px;
+	margin-bottom: 10px;
+	width: 80%;
+	height: 30px;
+	left: 50px;
+	text-align: center;
+	font-family: verdana;
+	color: gray;
+	font-weight: bold;
+}
+
+#section {
+	background: #eee;
+	float: left;
+	position: relative;
+	padding-top:40px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px;
+	width: 40%;
+	height: 180px;
+	left: 40px;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	color: gray;
+}
+
+#aside {
+	background: blue;
+	position: relative;
+	float: left;
+	padding: 50px;
+	margin: 10px;
+	width: 30%;
+	height: 180px;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	color: #ccc;
+}
+
+#article {
+	background: gray;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 60px;
+	width:95%;
+	height: 90px;
+	overflow: visible;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	color: #fff;
+}
+
+#h {
+	background: #eee;
+	position: relative;
+	padding: 15px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 10px;
+	left: 10px;
+	overflow: visible;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 9px;
+	color: gray;
+}
+
+#p {
+	background: #eee;
+	position: relative;
+	padding: 15px;
+	width: 90%;
+	height: 10px;
+	left: 10px;
+	bottom: 10px;
+	overflow: visible;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 9px;
+	color: gray;
+}
+
+#footer {
+	background: #eee;
+	position: relative;
+	clear: both;
+	padding: 40px;
+	margin-top: 20px;
+	width:80%;
+	height: 30%;
+	left: 50px;
+	text-align: center;
+	font-family: verdana;
+	font-weight: bold;
+	color: gray;
+}
