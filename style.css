@@ -4,14 +4,17 @@ body {
 	width: 100%;
 }
 
+.container {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 #header {
 	background: #eee;
 	position: relative;
 	padding: 40px;
 	margin-bottom: 10px;
-	width: 80%;
 	height: 30px;
-	left: 50px;
 	text-align: center;
 	font-family: verdana;
 	color: gray;
@@ -23,9 +26,7 @@ body {
 	position: relative;
 	padding: 40px;
 	margin-bottom: 10px;
-	width: 80%;
 	height: 30px;
-	left: 50px;
 	text-align: center;
 	font-family: verdana;
 	color: gray;
@@ -40,10 +41,10 @@ body {
 	padding-bottom: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: 10px;
-	width: 40%;
-	height: 180px;
-	left: 40px;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 50%;
+	height: 190px;
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
@@ -51,17 +52,18 @@ body {
 }
 
 #aside {
-	background: blue;
+	background: #eee;
 	position: relative;
 	float: left;
 	padding: 50px;
-	margin: 10px;
-	width: 30%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 37.7%;
 	height: 180px;
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
-	color: #ccc;
+	color: gray;
 }
 
 #article {
@@ -71,6 +73,7 @@ body {
 	padding-bottom: 60px;
 	width:95%;
 	height: 90px;
+	left: 10px;
 	overflow: visible;
 	text-align: center;
 	font-family: verdana;
@@ -81,8 +84,9 @@ body {
 #h {
 	background: #eee;
 	position: relative;
-	padding: 15px;
-	margin-bottom: 10px;
+	padding: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
 	width: 90%;
 	height: 10px;
 	left: 10px;
@@ -90,14 +94,14 @@ body {
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
-	font-size: 9px;
 	color: gray;
 }
 
 #p {
 	background: #eee;
 	position: relative;
-	padding: 15px;
+	padding: 10px;
+	padding-bottom: 20px;
 	width: 90%;
 	height: 10px;
 	left: 10px;
@@ -106,7 +110,6 @@ body {
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
-	font-size: 9px;
 	color: gray;
 }
 
@@ -116,9 +119,7 @@ body {
 	clear: both;
 	padding: 40px;
 	margin-top: 20px;
-	width:80%;
 	height: 30%;
-	left: 50px;
 	text-align: center;
 	font-family: verdana;
 	font-weight: bold;
